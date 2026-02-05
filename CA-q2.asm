@@ -1,9 +1,4 @@
-; Compare two unsigned numbers stored at 50H and 51H
-; Allowed instructions only: MOV, INC, DEC, JZ, JNZ, CLR, SETB, ANL, ORL
-; Result:
-;   01H ? 50H > 51H
-;   00H ? 50H = 51H
-;   FFH ? 50H < 51H
+
 
 ORG 0000H
 
