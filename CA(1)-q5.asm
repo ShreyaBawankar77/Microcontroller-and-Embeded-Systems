@@ -20,7 +20,7 @@ KEEP_VAL:
 
 FILL_ZEROS:
     CJNE R0, #60H, ZERO_NEXT ; Fill from current Write Pointer to end of range
-    RET                      ; Compaction complete
+    RET                     
 
 ZERO_NEXT:
     MOV @R0, #00H            ; Overwrite old data/FFH with 00H
